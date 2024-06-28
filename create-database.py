@@ -33,7 +33,7 @@ def generate_data_store():
 
 
 # DATA_PATH = "data/pdfs"
-
+#
 def load_documents():
     # Find all PDF files in the directory
     pdf_files = [f for f in os.listdir(DATA_PATH) if f.endswith('.pdf')]
